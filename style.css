@@ -87,6 +87,55 @@ p {
   text-decoration: underline;
 }
 
-@media (min-) {
+@media (max-width: 450px) {
+  h1 {
+    font-size: 48px;
+  }
 
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h3, p {
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  img {
+    display: none;
+  }
+
+  a {
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .final-btn {
+    margin-bottom: 30px;
+  }
+
+  .primary-link {
+    padding: 13px 8px;
+  }
+
+  .secondary-link {
+    padding: 13px 8px;
+  }
+
+  .email-link {
+    font-size: 22px;
+  }
+
+  .navigation-links {
+    margin: 18px !important;
+  }
+
+  #contact h2 {
+    margin: 0 !important;
+  }
 }
